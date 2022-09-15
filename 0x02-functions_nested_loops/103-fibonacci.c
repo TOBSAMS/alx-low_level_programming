@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include "main.h"
 
 /**
  * main - Prints the sum of even-valued Fibonacci sequence
@@ -15,7 +15,7 @@ int main(void)
 		{
 			fibsum = fib1 + fib2;
 		if (fibsum > 4000000)
-		break;
+			break;
 
 		if ((fibsum % 2) == 0)
 			tot_sum += fibsum;
